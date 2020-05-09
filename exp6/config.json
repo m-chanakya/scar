@@ -1,0 +1,52 @@
+{
+    "path_to_raw_data": "./data/train.article.txt",
+    "path_to_data_buckets": "./data/parts/part.{}",
+    "path_to_data": "./data/batches/batch.{}",
+    "path_to_is_stop": "./data/batches/is_stop/batch.{}",
+
+    "path_to_raw_validation_data": "./data/valid.article.filter.txt",
+    "path_to_validation_data_buckets": "./data/parts_valid/part.{}",
+    "path_to_validation_data": "./data/batches_valid/batch.{}",
+    "path_to_validation_is_stop": "./data/batches_valid/is_stop/batch.{}",
+
+    "path_to_vocab": "./data/words.txt",
+    "glove_path": "./data/glove.42B.300d.txt",
+
+    "save_path": "./exp6",
+    "logfile": "out.log",
+    "weights_path": "weights.{epoch:02d}.hdf5",
+
+    "epochs": 8,
+    "batch_size": 128,
+    "no_of_steps": 26775,
+    "no_of_steps_valid": 1347,
+
+
+    "min_sent_len": 15,
+    "max_sent_len": 40,
+    "vocab_size": 20003,
+    "stop_list_size": 50,
+    "word_emb_len": 300,
+    "lstm_size": 600,
+    "iem_hidden": 150,
+    "is_stop_hidden": 150,
+    "bilstm": true,
+
+    "summ_length_loss": 8,
+    "binarization_loss": 100,
+    "summ_reconstruction_loss": 1,
+    "linkage_loss": 5,
+    "is_stop_loss": 10,
+    "summ_len": 0.35,
+
+    "std": 0.1,
+    "l2reg": 0.0001,
+    "dpout": 0.3,
+    "gclip": 1.0,
+
+    "glove_vocab_size": 1917494,
+    "glove_emb_len": 300,
+
+    "early_stopping_delta": 0.1,
+    "early_stopping_patience": 1
+}
