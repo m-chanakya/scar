@@ -5,7 +5,6 @@ import keras.backend as K
 from keras.layers import *
 from keras.models import Model, model_from_json
 from keras.callbacks import CSVLogger, ModelCheckpoint, Callback
-from keras.losses import sparse_categorical_crossentropy
 from keras import activations, initializers, regularizers, constraints, optimizers
 
 import preprocess, dataset

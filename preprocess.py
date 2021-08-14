@@ -77,7 +77,9 @@ def filter_words(words):
 
 
 def main():
-    config = json.loads(open("./exp8/config.json").read())
+    expNo = str(sys.argv[1])
+    configPath = "./exp"+expNo+"/config.json"
+    config = json.loads(open(configPath).read())
 
     #Make it configurable
     sent_lim = 37500000
