@@ -39,6 +39,8 @@ python preprocess.py $expNo$
 (Example: python preprocess.py 6)
 ```
 
+Update `no_of_steps` and `no_of_steps_valid` in config.json based on the output (`Training/Validation steps/epoch`) of the above script. 
+
 ### Step 2: Train the model
 
 Create exp$expNo$ folder (Example: exp6) with a config.json file in it.
