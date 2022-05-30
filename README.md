@@ -80,18 +80,11 @@ files2rouge summaries.txt references.txt
 ## Cite
 
 ```bash
-@inproceedings{malireddy-etal-2018-gold,
-    title = "Gold Corpus for Telegraphic Summarization",
-    author = "Malireddy, Chanakya  and
-      Somisetty, Srivenkata N M  and
-      Shrivastava, Manish",
-    booktitle = "Proceedings of the First Workshop on Linguistic Resources for Natural Language Processing",
-    month = aug,
-    year = "2018",
-    address = "Santa Fe, New Mexico, USA",
-    publisher = "Association for Computational Linguistics",
-    url = "https://aclanthology.org/W18-3810",
-    pages = "71--77",
-    abstract = "Most extractive summarization techniques operate by ranking all the source sentences and then select the top ranked sentences as the summary. Such methods are known to produce good summaries, especially when applied to news articles and scientific texts. However, they don{'}t fare so well when applied to texts such as fictional narratives, which don{'}t have a single central or recurrent theme. This is because usually the information or plot of the story is spread across several sentences. In this paper, we discuss a different summarization technique called Telegraphic Summarization. Here, we don{'}t select whole sentences, rather pick short segments of text spread across sentences, as the summary. We have tailored a set of guidelines to create such summaries and, using the same, annotate a gold corpus of 200 English short stories.",
+@inproceedings{malireddy2020scar,
+  title={SCAR: Sentence Compression using Autoencoders for Reconstruction},
+  author={Malireddy, Chanakya and Maniar, Tirth and Shrivastava, Manish},
+  booktitle={Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics: Student Research Workshop},
+  pages={88--94},
+  year={2020}
 }
 ```
